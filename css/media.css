@@ -1,0 +1,35 @@
+@media screen and (max-width: 990px) {
+	.about-me {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 770px) {
+	
+	nav {
+		display: none;
+	}
+	.offer > h1 {
+		font-size: 40px;
+	}
+	.offer > h2 {
+		font-size: 29px;
+	}
+}   .about-me__number_cat {
+	margin-bottom:30px; 
+}
+@media screen and (max-width: 583px) {
+		.about-me__links {
+		float: none;
+	}
+	.about-me__shiny {
+		display: none;
+	}
+	.about-me__block {
+		float: none;
+		width: 20%;
+		margin: 5% auto;
+	}
+}
