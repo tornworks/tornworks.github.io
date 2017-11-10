@@ -18,6 +18,13 @@
 {
     font-size: 10px;
     line-height: 10px;
+/*modifications*/
+    z-index: 2;
+    text-align: center;
+    padding-left: 18px;
+    color: black;
+    border-radius: 50%;
+
 
     position: absolute;
     top: 50%;
@@ -25,8 +32,7 @@
     display: block;
 
     width: 50px;
-    height: 50px;
-    padding: 0;
+    height: 50px;    
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -34,9 +40,9 @@
     cursor: pointer;
 
     color: transparent;
-    border: none;
+    background:  #b5a89e;
+    border: transparent;
     outline: none;
-    background: transparent;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -45,7 +51,7 @@
 {
     color: transparent;
     outline: none;
-    background: transparent;
+    background: #64574e;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -63,7 +69,7 @@
 .slick-prev:before,
 .slick-next:before
 {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'FontAwesome';
     font-size: 20px;
     line-height: 1;
 
@@ -76,7 +82,6 @@
 
 .slick-prev
 {   
-    position: absolute;
     left: -25px;
     bottom: 0;
 }
@@ -87,16 +92,16 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '\f0d9';
+
 }
 [dir='rtl'] .slick-prev:before
-{
-    content: '→';
+{    
+    content: '\f0da';
 }
 
 .slick-next
 {   
-    position: absolute;
     right: -25px;
 }
 [dir='rtl'] .slick-next
@@ -105,12 +110,13 @@
     left: -25px;
 }
 .slick-next:before
-{
-    content: '→';
+{    
+    content: '\f0da';
+    padding-left: 5px;
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+     content: '\f0d9';
 }
 
 /* Dots */
