@@ -12,6 +12,7 @@ body,html {
     -webkit-transition-timing-function: ease;
 }
 h1,h2,h3 {
+	display: block;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 900;
@@ -202,6 +203,7 @@ header {
 
 }
 .footer {
+	margin-top: 50px;
 	color: grey;
 	font-size: 11px;
 	font-weight: 400;
