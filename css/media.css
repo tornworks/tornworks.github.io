@@ -28,7 +28,8 @@
 	
 }
 @media screen and (max-width: 583px) {
-		.about-me__links {
+	h2 {text-align: center;}
+	.about-me__links {
 		float: none;
 	}
 	.about-me__shiny {
@@ -39,5 +40,4 @@
 		width: 20%;
 		margin: 5% auto;
 	}
-	
 }
