@@ -163,7 +163,8 @@ header {
 .work__img {
 	background:grey url(./img/1.jpg) center center /cover;
 	display: block;
-	height:  50px;
+	
+	height: 100px;
 	border: 2px solid red;
 
 }
