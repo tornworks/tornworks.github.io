@@ -45,6 +45,7 @@ a,a:hover,a:active,a:focus,a:visited {
 	color: white;
 	text-align: center;
 	line-height: 50px;
+	z-index: 99;
 }
 .header__bg {
 	background: #472a2c url(../img/main-cat.jpg) no-repeat center center /cover;
