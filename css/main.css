@@ -27,11 +27,25 @@ h3 {
 	margin-bottom: 45px;
 
 }
-a:hover,a:active,a {
+a,a:hover,a:active,a:focus,a:visited {
 	text-decoration: none;
 	color: white;
 }
 /*index css*/
+.topbnt {
+	font-family:'FontAwesome';
+	content:'f052';
+	width:50px;
+	height: 50px;
+	background: grey;
+	position: fixed;
+	bottom: 2vh;
+	left: 3%;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
 .header__bg {
 	background: #472a2c url(../img/main-cat.jpg) no-repeat center center /cover;
 	height: 100vh;
@@ -52,7 +66,7 @@ header {
 	font-size: 25px;
 }
 .main-menu {
-	padding: 0
+	padding: 0;
 	width: 70%;
 	margin: 0 auto;
 }
@@ -61,7 +75,14 @@ header {
 	font-weight: 900;
 	float: left;
 	list-style: none;
-	margin: 0 5% ;
+	
+	padding:8px 5%;
+}
+.main-menu__item:hover {
+	background: #64574e ;
+	border-radius: 10px;
+	
+
 }
 .header__email {
 	font-weight: 200;

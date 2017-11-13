@@ -33,6 +33,7 @@
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
 <body>
+	<i class="fa fa-arrow-up topbnt" aria-hidden="true"></i>
 	<div class="header__bg">
 		<header class="container">
 			<div class="row">
@@ -43,13 +44,13 @@
 					<nav>
 						<ul class="main-menu clearfix">
 							<li class="main-menu__item">
-								<a href="">Обо мне</a>
+								<a href="#" class="about-me_btn">Обо мне</a>
 							</li>
 							<li class="main-menu__item">
-								<a href="">Навыки</a>
+								<a href="#" class="skills_btn">Навыки</a>
 							</li>
 							<li class="main-menu__item">
-								<a href="">Работы</a>
+								<a href="" class="works_btn">Работы</a>
 							</li>
 						</ul>
 					</nav>
@@ -63,11 +64,11 @@
 			<div class="container offer">
 				<h1>Дело, которым я живу</h1>
 				<h2>Верстка & Коты</h2>
-				<i class="fa fa-arrow-down" aria-hidden="true"></i>
+				<i class="fa fa-arrow-down arrow_down" aria-hidden="true" ></i>
 			</div>
 	</div>
 	<div class="container">
-		<h2>Обо мне</h2>
+		<h2 id="about-me_anc">Обо мне</h2>
 		<div class="row">
 			<div class="col-md-6">
 				<h3>Рассказ про котика</h3>
@@ -123,7 +124,7 @@
 			</div>
 		</div>
 	</div>
-		<h2>Навыки</h2>
+		<h2 id="skills_anc">Навыки</h2>
 				<div class="row">
 					<div class="col-md-3 col-sm-6">
 						<div class="skill__item">
@@ -166,7 +167,7 @@
 						</div>					
 					</div>
 				</div>
-				<h2 class="works">Работы</h2>
+				<h2 class="works" id="works_anc">Работы</h2>
 		<div class="row">
 			<div class="col-sd-offset-1 col-sd-9 col-xs-12">
 				<div class="slider">
@@ -200,13 +201,11 @@
 </div>
 </div>
 </div>
-,<
-
 	<script  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript">
 			$('.slider').slick();
   </script>
-  <!--<script type="text/javascript" src="js/main.js"></script>-->
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

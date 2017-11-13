@@ -40,4 +40,7 @@
 		width: 20%;
 		margin: 5% auto;
 	}
+	.topbnt{
+		display: none;
+	}
 }
