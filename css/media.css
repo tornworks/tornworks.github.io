@@ -1,4 +1,4 @@
-@media screen and (max-width: 990px) {
+@media screen and (max-width:990px) {
 	.about-me {
 		width: 80%;
 		margin: 0 auto;
@@ -7,14 +7,17 @@
 		width: 100%;
 		
 	}
-	
-}
-
-@media screen and (max-width: 790px) {
-	
-	nav {
+	nav > ul {
 		display: none;
 	}
+	.menu-mobile {
+		display: block;
+	}
+}
+
+@media screen and (max-width:790px) {
+	
+	
 	.offer > h1 {
 		font-size: 40px;
 	}
@@ -27,7 +30,7 @@
 	
 	
 }
-@media screen and (max-width: 583px) {
+@media screen and (max-width:583px) {
 	h2 {text-align: center;}
 	.about-me__links {
 		float: none;

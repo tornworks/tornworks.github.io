@@ -27,6 +27,9 @@ h3 {
 	margin-bottom: 45px;
 
 }
+ul {
+	padding: 0px;
+}
 a,a:hover,a:active,a:focus,a:visited {
 	text-decoration: none;
 	color: white;
@@ -76,14 +79,32 @@ header {
 	font-weight: 900;
 	float: left;
 	list-style: none;
-	
 	padding:8px 5%;
 }
 .main-menu__item:hover {
 	background: #64574e ;
 	border-radius: 10px;
-	
-
+}
+.menu-mobile {
+	display: none;
+}
+.menu-mobile__list {
+	display: none;
+}	
+.menu-mobile__icon {
+	font-size: 25px;
+	margin-top: 10px;
+}
+.menu-mobile__item {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 20px;
+	list-style: none;
+	text-align:center;
+	padding: 10px 0;
+	margin: 2px 0;
+	border: 1px solid grey;
+	border-radius: 10px;
 }
 .header__email {
 	font-weight: 200;
