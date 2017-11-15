@@ -112,7 +112,7 @@
 						<div class="about-me__links">
 							<a href="">freelance.ru/myname</a>
 							<a href="">vk.com/12343</a>
-							<a href="">info@sitename.ru</a>						
+							<a href="" id="popup">Отправить мне Email</a>						
 						</div>
 						<div class="about-me__shiny">
 							<img src="img/cat-number.png" alt="">
@@ -200,13 +200,20 @@
 	</div>
 </div>
 </div>
-<form action="https://formspree.io/torn.works@gmail.com"
+
+</div>
+<div id="modal_form"><!-- popup window --> 
+      <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть --> 
+      <form action="https://formspree.io/torn.works@gmail.com"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+    <input type="text" name="name" placeholder="Ваше имя">
+    <input type="email" name="_replyto" placeholder="Ваш Email">
+    <textarea rows="4" cols="30" name="text" placeholder="Ваше сообщение">
+    </textarea>
+    <input type="submit" value="Отправить">
 </form>
 </div>
+<div id="overlay"></div><!-- Пoдлoжкa -->
 	<script  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript">
